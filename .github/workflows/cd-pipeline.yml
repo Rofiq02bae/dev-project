@@ -25,7 +25,7 @@ jobs:
       - name: Build and Push Docker image
         run: |
           docker build -t rofiq02bae/dev-project:latest .
-          docker push rofiq02bae/dev-project:latest
+        
 
       - name: Set up kubectl
         uses: azure/setup-kubectl@v3
